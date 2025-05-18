@@ -101,7 +101,7 @@
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Technical Report( Coming Soon)
+                        <span>Technical Report( Comming Soon)
                         </span>
                       </a>
                     </span>
@@ -130,7 +130,7 @@
 
                 <!-- ArXiv abstract Link 
                 <span class="link-block">
-                  <a href="https://steamer001.github.io/steamer/" target="_blank"
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -158,9 +158,28 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            <b>Steamer-I2V</b> is a foundational image-to-video (I2V) generation model designed to transform static images into temporally coherent and visually compelling video sequences with enhanced controllability and fidelity. The model enables fine-grained user control over the video synthesis process through customizable parameters such as motion trajectories, temporal dynamics, and stylistic attributes, thereby facilitating precise manipulation of the generated content. It accommodates multimodal conditional inputs—including Chinese textual prompts, reference images, and structural guidance signals—to ensure alignment with specific creative intents or functional requirements.
+<b>Steamer-I2V</b>, as an industry-leading image-to-video (I2V) generation model, is specifically optimized for <b>precise visual control</b>, <b>high-definition quality</b>, and <b>Chinese semantic understanding</b>. It converts static images into temporally coherent and visually compelling dynamic videos. Recognized for exceptional controllability and generation fidelity, the model has claimed the <b>top position</b> in comprehensive image-to-video evaluation on VBench, an authoritative international video generation evaluation benchmark, demonstrating cutting-edge technical capabilities.
 
-            <br>Built upon state-of-the-art generative methodologies and a Transformer-based diffusion architecture, <b>Steamer-I2V</b> supports high-resolution video generation up to 1080p, producing outputs characterized by smooth transitions and lifelike motion dynamics. Furthermore, the model incorporates targeted optimizations for temporal consistency, cinematic shot composition, and motion regularities, ensuring that the synthesized frames exhibit strong logical coherence and visual continuity throughout the video sequence.
+<ol>
+<li><b>Fine-grained Video Structured Description Language for Pixel-level Control and Cinematic Composition</b></br>
+<b>Steamer-I2V</b> employs a meticulously structured design for shooting perspectives and video descriptions, ensuring strict adherence to visual details, object motion trajectories, style attributes, and cinematography. This enables precise control over complex content generation and instruction compliance. The model supports multimodal conditional inputs—including Chinese text prompts, reference images, and guidance signals—to maintain alignment with specific creative visions or functional requirements.
+</li>
+
+<li><b>Model Ensemble Optimization Strategy for HD Quality and Cinematic Dynamics</b></br>
+Leveraging advanced generative methods and Transformer-based diffusion architecture, the model produces high-definition videos up to 1080P resolution with smooth transitions and physically realistic motion patterns. <b>Steamer-I2V</b> implements a model ensemble optimization strategy specifically enhancing temporal consistency, cinematic framing, and motion regularity, ensuring exceptional logical coherence and visual continuity across video sequences.
+<ul>
+<li><b>Multi-stage Supervised Training</b>: Progressive supervised fine-tuning (SFT) from low to high resolutions and frame rates enables gradual learning from macro-control to detailed refinement.</li>
+<li><b>Aesthetic Conditional Fine-tuning</b>: Through conditional fine-tuning (CFT), the model develops an intrinsic understanding of video aesthetics beyond superficial imitation.</li>  
+<li><b>Multi-objective Reinforcement Learning</b>: Combines human global feedback with multi-dimensional quality metrics for preference alignment optimization, progressively enhancing precision from macro to micro levels.</li>
+
+<li><b>Prompt Enhancement Technology</b>: A multimodal large model analyzes input images to augment original prompts, predicting temporal evolutions of scenes/objects in video frames—including actions, motion trajectories, and state transitions.</li>
+</ul>
+</li>  
+<li><b>Accurate Chinese Semantic Comprehension</b></br>
+<b>Steamer-I2V</b> utilizes a hundred-million-scale Chinese multimodal training database processed through a three-tier "filter-purify-proportion" data optimization system. This rigorous data cleansing mechanism ensures precise semantic alignment between textual instructions and visual elements, empowering the model with professional-level Chinese concept parsing capabilities. It effectively captures culture-specific elements and complex semantic relationships, significantly improving visual translation accuracy for Chinese creative instructions.
+</li>
+</ol>
+
           </p>
         </div>
       </div>
